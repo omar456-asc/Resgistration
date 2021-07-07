@@ -33,10 +33,12 @@ form {
 
 .input-group label {
     display: block;
-    text-align: right;
+    text-align: center;
+    line-height: 150%;
     margin: 3px;
 }
 .input-group input {
+    text-align: center;
     height: 30px;
     width: 93%;
     padding: 5px 10px;
@@ -45,6 +47,9 @@ form {
     border: 1px solid gray;
 }
 .btn {
+    margin: auto;
+    display: block;
+    text-align: center;
     padding: 10px;
     font-size: 15px;
     color: white;
@@ -62,4 +67,13 @@ form {
     border: 1px solid #a94442;
     color: #a94442;
     background: #f2dede;
+}
+.footer {
+left: 0;
+position: fixed;
+bottom: 0;
+text-align: center;
+color: black;
+width: 100%;
+background: #f2dede;
 }
